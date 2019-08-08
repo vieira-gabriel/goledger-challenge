@@ -9,7 +9,7 @@ To accomplish that we recommend you use a UNIX-like machine (Linux/macOS). Besid
 - Install cURL (https://curl.haxx.se/download.html) 
 - Install Docker and Docker Compose (https://www.docker.com/)
 - Install Go (https://golang.org/dl/)
-- Fork the repository goledgerdev/goledger-challenge 
+- Fork the repository https://github.com/goledgerdev/goledger-challenge 
     - Fork it, do NOT clone it, since you will need to send us your forked repository
     - Make sure you the repository is in your $GOPATH
 - Download the Docker images of Hyperledger
