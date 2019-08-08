@@ -41,7 +41,7 @@ You should see the following output:
 
 Create and Join Channel
 
-When deploying a local network, we can use the cli container to do operations in the network. For that, we need to be inside the container. Use the following command to get inside it.
+When deploying a local network, we can use the `cli` container to do operations in the network. For that, we need to be inside the container. Use the following command to get inside it.
 
 	docker exec -it cli bash
 
@@ -56,7 +56,7 @@ Join the channel.
 
 ## Install and Instantiate Chaincode
 
-Install the chaincode.
+Still inside the `cli` container, install the chaincode.
 	
     peer chaincode install -n mycc -v 1.0 -p github.com/chaincode/fabcar/go/
 
